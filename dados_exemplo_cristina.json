@@ -1,0 +1,75 @@
+{
+  "nome_completo": "Cristina Araújo de Jesus",
+  "cidade_uf": "Barreiras-BA",
+  "endereco": "Rua Leonisia Alves dos Santos, nº 548, Sandra Regina",
+  "telefone": "(77) 9.8828-5062",
+  "email": "cristinawillemilly@gmail.com",
+  "cargo_objetivo": "Professora de Geografia",
+  "formacao": [
+    {
+      "tipo": "Licenciatura",
+      "curso": "Geografia",
+      "instituicao": "Universidade Federal do Oeste da Bahia (UFOB)",
+      "status": "Concluído",
+      "ano": "2025"
+    },
+    {
+      "tipo": "Pós-graduação",
+      "curso": "Ensino de Geografia e História",
+      "instituicao": "FAVINE",
+      "status": "Cursando",
+      "ano": ""
+    }
+  ],
+  "cursos": [
+    {
+      "nome": "Informática Básica",
+      "instituicao": "",
+      "ano": ""
+    },
+    {
+      "nome": "Libras",
+      "instituicao": "",
+      "ano": ""
+    }
+  ],
+  "experiencias": [
+    {
+      "tipo": "Emprego",
+      "empresa": "Escola Municipal José Cardoso de Lima",
+      "cargo": "Professora de Geografia",
+      "periodo": "2025-2026",
+      "atividades": "Atuação com turmas do 6º e 7º anos."
+    },
+    {
+      "tipo": "Emprego",
+      "empresa": "Colégio Municipal Ângelo Bosa",
+      "cargo": "Professora de Geografia",
+      "periodo": "2026",
+      "atividades": "Atuação com turmas do 8º e 9º anos."
+    },
+    {
+      "tipo": "Estágio",
+      "empresa": "Programa Institucional de Bolsa de Iniciação à Docência (PIBID/UFOB)",
+      "cargo": "Bolsista de iniciação à docência",
+      "periodo": "2017 - 6 meses",
+      "atividades": "Vivência de práticas pedagógicas e atividades de iniciação à docência."
+    },
+    {
+      "tipo": "Projeto",
+      "empresa": "Projeto STEAM",
+      "cargo": "Participante",
+      "periodo": "",
+      "atividades": "Desenvolvimento de atividades voltadas à Feira de Ciências."
+    }
+  ],
+  "habilidades": [
+    "Organização",
+    "Responsabilidade",
+    "Boa comunicação",
+    "Criatividade",
+    "Facilidade com alunos",
+    "Trabalho em equipe",
+    "Planejamento de aulas"
+  ]
+}

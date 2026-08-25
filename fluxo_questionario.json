@@ -1,0 +1,113 @@
+{
+  "versao": "1.0",
+  "principios": [
+    "uma pergunta por tela",
+    "não exigir CPF, RG ou nome dos pais",
+    "endereço completo opcional; cidade/UF é suficiente",
+    "não inventar experiências, cursos ou competências",
+    "permitir 'não sei' e 'não possuo'",
+    "revisão final antes de gerar o documento"
+  ],
+  "fluxo": [
+    {
+      "id": "nome_completo",
+      "pergunta": "Qual é o seu nome completo?",
+      "tipo": "texto",
+      "obrigatorio": true
+    },
+    {
+      "id": "cidade_uf",
+      "pergunta": "Em qual cidade e estado você mora?",
+      "tipo": "texto",
+      "obrigatorio": true,
+      "exemplo": "Barreiras-BA"
+    },
+    {
+      "id": "endereco",
+      "pergunta": "Deseja colocar seu endereço no currículo? Se sim, informe. Se preferir, pode deixar em branco.",
+      "tipo": "texto",
+      "obrigatorio": false
+    },
+    {
+      "id": "telefone",
+      "pergunta": "Qual é o seu telefone/WhatsApp?",
+      "tipo": "telefone",
+      "obrigatorio": true
+    },
+    {
+      "id": "email",
+      "pergunta": "Qual é o seu e-mail? Se não possuir, pode deixar em branco.",
+      "tipo": "email",
+      "obrigatorio": false
+    },
+    {
+      "id": "cargo_objetivo",
+      "pergunta": "Qual emprego, cargo ou área você está procurando?",
+      "tipo": "texto",
+      "obrigatorio": true
+    },
+    {
+      "id": "formacao_loop",
+      "pergunta": "Vamos cadastrar sua formação escolar/acadêmica.",
+      "tipo": "loop",
+      "campos": [
+        "tipo",
+        "curso",
+        "instituicao",
+        "status",
+        "ano"
+      ]
+    },
+    {
+      "id": "cursos_loop",
+      "pergunta": "Você possui cursos, certificados ou capacitações?",
+      "tipo": "loop_opcional",
+      "campos": [
+        "nome",
+        "instituicao",
+        "ano"
+      ]
+    },
+    {
+      "id": "experiencias_loop",
+      "pergunta": "Você já teve emprego, estágio, trabalho informal, voluntariado ou participou de projeto relevante?",
+      "tipo": "loop_opcional",
+      "campos": [
+        "tipo",
+        "empresa",
+        "cargo",
+        "periodo",
+        "atividades"
+      ]
+    },
+    {
+      "id": "habilidades",
+      "pergunta": "Quais habilidades melhor descrevem você?",
+      "tipo": "lista_texto",
+      "exemplo": "organização, responsabilidade, comunicação, atendimento ao público"
+    },
+    {
+      "id": "cnh",
+      "pergunta": "Possui CNH? Se sim, qual categoria?",
+      "tipo": "texto",
+      "obrigatorio": false
+    },
+    {
+      "id": "perfil_profissional",
+      "pergunta": "Deseja escrever algo específico no perfil profissional? Se deixar em branco, o sistema cria automaticamente.",
+      "tipo": "texto_longo",
+      "obrigatorio": false
+    },
+    {
+      "id": "objetivo",
+      "pergunta": "Deseja escrever um objetivo específico? Se deixar em branco, o sistema cria automaticamente.",
+      "tipo": "texto_longo",
+      "obrigatorio": false
+    },
+    {
+      "id": "revisao",
+      "pergunta": "Confira suas informações antes de gerar o currículo.",
+      "tipo": "revisao"
+    }
+  ]
+}
